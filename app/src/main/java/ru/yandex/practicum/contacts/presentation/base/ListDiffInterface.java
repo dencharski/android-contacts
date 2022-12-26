@@ -4,7 +4,7 @@ import ru.yandex.practicum.contacts.presentation.main.ContactUi;
 
 public interface ListDiffInterface<T> {
 
-    boolean theSameAs(ListDiffInterface<T> t);
+    boolean theSameAs(T t);
 
     boolean equals(Object object);
 }
